@@ -1,5 +1,3 @@
-require_relative '../lib/move.rb'
-
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -9,6 +7,5 @@ def display_board(board)
 end
 
 def input_to_index(input)
-  input = gets.to_i
-  display_board(input)
+  input = "#{input + 1}"
 end
