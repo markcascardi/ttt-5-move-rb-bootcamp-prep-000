@@ -1,4 +1,3 @@
-board = []
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -13,5 +12,5 @@ def input_to_index(input)
 end
 
 def move(board, index, player = "X")
-  puts board[index]
+  board[index] = player
 end
