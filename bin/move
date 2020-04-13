@@ -2,4 +2,4 @@
 
 require_relative '../lib/move.rb'
 
-input = gets.to_i
+input = gets.strip
