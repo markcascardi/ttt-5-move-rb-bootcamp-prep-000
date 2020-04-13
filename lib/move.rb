@@ -8,10 +8,8 @@ def display_board(board)
 end
 
 def input_to_index(input)
-  input.to_i - 1
+  index = input.to_i - 1
 end
-
-input_to_index(input) = index
 
 def move(board, index, player = "X")
   board[index] = player
